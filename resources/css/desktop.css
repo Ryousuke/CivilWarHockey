@@ -27,19 +27,30 @@ p {
   color: white;
 }
 nav {
-  <!--366092 previous -->
-    display: block;
+    display: inline-block;
+    width: 90%;
+    background: url("file:///C:/Users/Steven/Documents/Civil%20War%20Hockey/logo5.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
     background-color: 366092;
-    padding-right: 50px;
-    padding-left: 25px;
+
+    padding-right: 5%;
+    padding-left: 5%;
+}
+nav:hover {
+    display: inline-block;
+    width: 90%;
+    background: url("file:///C:/Users/Steven/Documents/Civil%20War%20Hockey/logo5.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 img {
   opacity: 0.85;
-}
-
-div {
-    display: block;
+}10%v {  display: block;
     padding-left: 2px
     font-family: "arial";
 }
@@ -58,7 +69,7 @@ li {
 }
 
 ul  {
-
+font-size: 20;
 }
 
 .chart {
@@ -101,4 +112,3 @@ font-size: 18;
   background-color:555555;color:gold;
   font-size: 13;
 }
-
