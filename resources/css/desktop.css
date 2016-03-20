@@ -1,8 +1,104 @@
-<html>
-    <head>
+a {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: 666666;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "arial black";
+    font-size: 15;
+    border: 1.3px;
+    border-style: solid;
+    border-color: white;
+    padding-right: 6px;
+    padding-left: 6px;
+}
 
-    </head>
-    <body>
-    </body>
+a:hover {
+background-color: 555555;
+border-bottom: 3px solid white;
+}
 
-</html>
+p {
+  font-size: 15px;
+  color: white;
+}
+nav {
+  <!--366092 previous -->
+    display: block;
+    background-color: 366092;
+    padding-right: 50px;
+    padding-left: 25px;
+}
+
+img {
+  opacity: 0.85;
+}
+
+div {
+    display: block;
+    padding-left: 2px
+    font-family: "arial";
+}
+
+body {
+    background opacity: 0.5;
+    background: url('file:///C:/Users/Steven/Documents/Civil%20War%20Hockey/Background.png');
+    background-color: #9A9A9A;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 900px 680px;
+}
+li {
+
+}
+
+ul  {
+
+}
+
+.chart {
+  font: 11px sans-serif;
+  text-align: left;
+  padding: 2px;
+  margin: 1px;
+  font-weight: bold;
+}
+
+.left {
+width: 68.9%;
+background-color: 555555;
+opacity: 0.85;
+float: left;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+font-family: "arial";
+font-size: 18;
+}
+
+.right {
+  width: 25%;
+  float: right;
+  background-color: 366092;
+  opacity: 0.7;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.topPlayerDiv {
+  background-color:gold;color:000000;
+  font-size: 13;
+}
+
+.playerDiv {
+  background-color:555555;color:gold;
+  font-size: 13;
+}
+
