@@ -18,14 +18,15 @@ a {
 }
 
 a:hover {
-background-color: 555555;
-border-bottom: 3px solid white;
+    background-color: 555555;
+    border-bottom: 3px solid white;
 }
 
 p {
-  font-size: 15px;
-  color: white;
+    font-size: 15px;
+    color: white;
 }
+
 nav {
     display: inline-block;
     width: 90%;
@@ -33,10 +34,10 @@ nav {
     background-size: 200px;
     background-repeat: no-repeat;
     background-color: 366092;
-
     padding-right: 5%;
     padding-left: 5%;
 }
+
 nav:hover {
     display: inline-block;
     width: 90%;
@@ -49,10 +50,7 @@ nav:hover {
 }
 
 img {
-  opacity: 0.85;
-}10%v {  display: block;
-    padding-left: 2px
-    font-family: "arial";
+    opacity: 0.85;
 }
 
 body {
@@ -64,56 +62,55 @@ body {
     background-attachment: fixed;
     background-size: 900px 680px;
 }
-li {
 
-}
-
-ul  {
-font-size: 20;
+li {} ul {
+    font-size: 20;
 }
 
 .chart {
-  font: 11px sans-serif;
-  text-align: left;
-  padding: 2px;
-  margin: 1px;
-  font-weight: bold;
+    font: 11px sans-serif;
+    text-align: left;
+    padding: 2px;
+    margin: 1px;
+    font-weight: bold;
 }
 
 .left {
-width: 60%;
-background-color: 555555;
-opacity: 0.85;
-float: left;
-color: white;
-padding-left: 5%;
-padding-right: 5%;
-font-family: "arial";
-font-size: 18;
+    width: 60%;
+    background-color: 555555;
+    opacity: 0.85;
+    float: left;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "arial";
+    font-size: 18;
 }
 
 .right {
-  width: 25%;
-  float: right;
-  background-color: 366092;
-  opacity: 0.7;
-  color: white;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  font-size: 15px;
+    width: 25%;
+    float: right;
+    background-color: 366092;
+    opacity: 0.7;
+    color: white;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 15px;
 }
 
 .topPlayerDiv {
-  background-color:gold;color:000000;
-  font-size: 13;
+    background-color: gold;
+    color: 000000;
+    font-size: 13;
 }
 
 .playerDiv {
-  background-color:555555;color:gold;
-  font-size: 13;
+    background-color: 555555;
+    color: gold;
+    font-size: 13;
 }
 
-#clockDiv{
+#clockDiv {
     font-family: sans-serif;
     color: black;
     display: inline-block;
@@ -122,7 +119,7 @@ font-size: 18;
     font-size: 30px;
 }
 
-#clockDiv > div{
+#clockDiv > div {
     padding: 10px;
     border-radius: 3px;
     display: inline-block;
@@ -130,36 +127,36 @@ font-size: 18;
     opacity: 0.3;
 }
 
-#clockDiv div > span{
+#clockDiv div > span {
     padding: 15px;
     border-radius: 3px;
     display: inline-block;
 }
 
-.smalltext{
+.smalltext {
     padding-top: 5px;
     font-size: 16px;
 }
 
 .jDawgs {
-  background-color: 555555;
-  float: left;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: arial;
-  font-size: 18;
-  text-align: right;
-  width: 35%;
+    background-color: 555555;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: arial;
+    font-size: 18;
+    text-align: right;
+    width: 35%;
 }
 
 .jTown {
-  background-color: 555555;
-  float: right;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: arial;
-  font-size: 18;
-  width: 35%;
+    background-color: 555555;
+    float: right;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: arial;
+    font-size: 18;
+    width: 35%;
 }
